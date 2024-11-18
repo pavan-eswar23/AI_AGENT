@@ -1,17 +1,17 @@
 # AI Assistant Dashboard
 
-This project is a Streamlit-based AI-powered dashboard designed to automate data extraction and enhance productivity. It leverages **Google Gemini 1.5 Pro** for text generation and information extraction, and **SerpAPI** for web search integration. The dashboard is highly customizable, allowing users to upload datasets, query relevant information, and download results.
+This project, **AI Assistant Dashboard**, is a Streamlit-based web application designed to automate data extraction and enhance productivity. The dashboard integrates **Google Gemini 1.5 Pro** for AI-driven information extraction and **SerpAPI** for seamless web search capabilities. Users can upload datasets, define queries, and extract valuable insights effortlessly.
 
 ---
 
 ## Features
 
 - **File Upload**: Upload CSV files for processing.
-- **Google Sheets Integration**: Optionally provide a Google Sheet URL for input data.
-- **Web Search Integration**: Fetches web search results using SerpAPI.
-- **AI-Powered Information Extraction**: Utilizes Google Gemini 1.5 Pro to extract insights from web search results or other contexts.
-- **Custom Queries**: Define query templates to extract specific information.
-- **Download Results**: Export the extracted data as a CSV file for further use.
+- **Google Sheets Integration**: Optionally input data via a Google Sheets URL.
+- **Web Search Integration**: Fetch web search results using SerpAPI.
+- **AI-Powered Information Extraction**: Uses Google Gemini 1.5 Pro for advanced text analysis and information extraction.
+- **Custom Query Templates**: Define queries like `Get the email of {entity}` for targeted data extraction.
+- **Downloadable Results**: Export extracted information as a CSV file.
 
 ---
 
@@ -21,7 +21,7 @@ This project is a Streamlit-based AI-powered dashboard designed to automate data
 
 1. Python 3.8 or above installed.
 2. Access to **SerpAPI** and **Google Gemini 1.5 Pro** with API keys.
-3. Environment variables set in a `.env` file:
+3. Environment variables set up in a `.env` file:
    - `SERP_API_KEY`
    - `GEMINI_API_KEY`
 
@@ -29,5 +29,5 @@ This project is a Streamlit-based AI-powered dashboard designed to automate data
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
-   cd <repository-name>
+   git clone https://github.com/pavan_eswar23/ai_agent.git
+   cd ai_agent
