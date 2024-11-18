@@ -31,16 +31,21 @@ The **AI Assistant Dashboard** is a Streamlit-based application designed to stre
    SERP_API_KEY=your_serp_api_key
    GEMINI_API_KEY=your_gemini_api_key
 ##Usage Guide
+
 **Step 1**: Launch the Application
 Open the app in your browser via the provided URL.
+
 **Step 2**: Upload Your Data
 Upload a CSV file or provide a Google Sheet URL with your dataset.
+
 **Step 3**: Configure Query
 Select the main column containing the entities (e.g., "Company Names").
 Enter a custom query template (e.g., Get the email of {entity}).
+
 **Step 4**: Extract Information
 Click Run Query to process the data.
 The app uses SerpAPI for web searches and Google Gemini AI to extract meaningful information.
+
 **Step 5**: Review and Download
 Review extracted information displayed in the app.
 Download results as a CSV file using the Download CSV button.
