@@ -49,3 +49,12 @@ The app uses SerpAPI for web searches and Google Gemini AI to extract meaningful
 **Step 5**: Review and Download
 Review extracted information displayed in the app.
 Download results as a CSV file using the Download CSV button.
+
+# Technologies Used
+**Streamlit**: Interactive web application framework.
+**Google Gemini 1.5 Pro**: AI model for text generation and analysis.
+**SerpAPI**: Web search API for automated queries.
+## Python Libraries:
+**pandas**: For data manipulation.
+**requests**: For API communication.
+**dotenv**: For managing environment variables.
