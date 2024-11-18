@@ -30,7 +30,7 @@ The **AI Assistant Dashboard** is a Streamlit-based application designed to stre
    ```plaintext
    SERP_API_KEY=your_serp_api_key
    GEMINI_API_KEY=your_gemini_api_key
-##Usage Guide
+## Usage Guide
 
 **Step 1**: Launch the Application
 Open the app in your browser via the provided URL.
